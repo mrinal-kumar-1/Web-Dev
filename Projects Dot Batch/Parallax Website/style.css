@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    margin : 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.wrapper{
+    overflow-x: hidden;
+    height: 100vh;
+    overflow-y: auto;
+    perspective: 8px;
+}
+h1{
+    font-family: 'Mukta', sans-serif;
+    position: absolute;
+    font-size: 8rem;
+    top: 5rem;
+    color: rgb(238, 241, 243);
+    text-shadow: 3px 2px 6px rgb(70, 66, 66);
+}
+.container{
+    position:relative;
+    height: 100%;
+    display: flex;
+    /* width: 100%; */
+    z-index: -1;
+    transform-style: preserve-3d;
+    align-items: center;
+    justify-content: center;
+    
+}
+#background{
+    transform: translateZ(-40px) scale(6.07);
+        
+}
+
+#foreground{
+    transform: translateZ(-20px) scale(4);
+    
+    
+}
+#background, #foreground{
+  position:absolute;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  object-fit: cover;
+}
+
+section{
+    background-color: rgb(91, 89, 89);
+    color: white;
+    padding: 6rem 0;
+}
+.head{
+    font-size: 3.5rem;
+    padding: 0 10rem;
+}
+
+.text{
+    /* word-spacing: 0.5rem; */
+    line-height: 1.65rem;
+    font-size : 1.2rem;
+    padding: 0 10rem;
+    margin: 5rem 0;
+    text-align: justify;
+}
+.head2{
+    font-size: 1.8rem;
+    background-color: aliceblue;
+    color: black;
+    position: absolute;
+    padding: 0.5rem 1.5rem;
+    top: 48%;
+}
+.head2:hover{
+    background-color: black;
+    color: white;
+}
+.bg1 .head2{
+    /* transform: translateX(34%); */
+    margin-left: 35%;
+ 
+}
+.bg2 .head2{
+    /* transform: translateX(17%); */
+    margin-left: 41.5%;
+    
+}
+.bg3 .head2{
+    /* transform: translateX(190%); */
+    margin-left: 36.5%;
+   
+}
+.bg4 .head2{
+    /* transform: translateX(90%); */
+    margin-left: 36.5%;
+}
+.bg{
+    position: relative;
+    width: 100%;
+    background-attachment: fixed;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg1{
+    background-image: url(temple-6808093_1280.jpg);
+}
+.bg2{
+    background-image: url(taj-mahal-4109110_1280.jpg);
+}
+.bg3{
+    background-image: url(amritsar-3083693_1280.jpg);
+}
+.bg4{
+    background-image: url(palace-gd35491a72_1920.jpg);
+}

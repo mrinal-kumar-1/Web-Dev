@@ -1,0 +1,252 @@
+/* css reset */
+*{
+    margin: 0px;
+    padding: 0%;
+    
+
+}
+
+/* navigation bar */
+.navbar{
+    display: flex;
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+    font-weight:1000;
+    font-size: 16px;
+    
+}
+.navbar ul{
+    display: flex;
+    margin-left: 500px;
+    flex-direction: row;
+    
+}
+.navbar img{
+    height: 50px;
+    margin: 10px;
+    padding-left: 28px;
+}
+.navbar ul li{
+    width: 100%;
+    list-style: none;
+    padding: 23px 50px;
+
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+  
+}
+.navbar::before{
+    content: "";
+    background-color: #68f200;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+   
+
+}
+/* home */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 150px;
+    /* justify-content: center; */
+    align-items: center;
+    height: 675px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4.5rem;
+}
+
+#home div{
+    color: white;
+    padding: 30px 0px;
+    line-height: 6rem;
+}
+#home::before{
+    content: "";
+    background: url('../pr-2-home.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+    filter: brightness(18%);
+}
+#home-para{
+    font-family: 'Raleway', sans-serif;
+    font-size: 45px;
+    padding-top: 60px;
+    line-height: 3.5rem;
+}
+#home-para-bold{
+    /* font-weight:900; */
+    font-size: 5.5rem;
+}
+
+/* impacts */
+.impacts{
+    font-family: 'Roboto', sans-serif;
+}
+.impacts h2{
+    text-align: center;
+}
+
+.impacts-contents{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 72px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+.impacts-tri{
+    background-color: aliceblue;
+    margin: 12px;
+    padding-top: 1px;
+    padding-bottom: 62px;
+    border-radius: 10px;
+}
+.tri img{
+  height: 168px;
+  margin: auto;
+  display: block;
+  padding-bottom: 51px;
+}
+
+ #microplastics, #wildlife, #pollution{
+  text-align: justify;
+  /* text-justify: auto; */
+} 
+
+#microplastics p{
+    margin: 20px;
+}
+#wildlife p{
+    margin: 20px;
+}
+#pollution p{
+    margin: 20px;
+}
+#microplastics img{
+    height: 170px ;
+}
+
+#wildlife img{
+    height: 170px ;
+}
+
+#pollution img{
+    height: 170px ;
+}
+/* Sources */
+
+.sources-main{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-top: 72px;
+}
+
+.sources{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: 62px;
+    margin-right: 69px;
+    margin-top: 64px;
+    justify-content: space-between;
+}
+
+.sources img{
+    height: 433px;
+}
+
+#sources-text{
+    text-align: justify;
+    margin-left: 30px;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+
+/* Solution */
+
+.solution-main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 72px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.solution{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-left: 62px;
+    margin-right: 69px;
+    margin-top: 64px;
+    justify-content: space-between;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.solution img{
+    height: 200px;
+    width: auto;
+}
+
+#solution-text1{
+    text-align: justify;
+    margin-right: 30px;
+    
+}
+
+#solution-text2{
+    text-align: justify;
+    margin-left: 30px;
+}
+
+#solution-text3{
+    text-align: justify;
+    margin-right: 30px;
+}
+
+/* footer */
+.foot{
+    color: white;
+    margin-top: 60px;
+}
+
+
+.foot::before{
+    content: "";
+    background:url('../pr-2-footer.jpg') no-repeat center center/cover;
+    position: absolute;
+    height: 300px;
+    width: 100%;
+    z-index: -1;
+    /* opacity: 1; */
+    filter: brightness(25%); 
+}
+
+/* utility class */
+.h-primary{
+    font-size: 3.55rem;
+    color: #68f200;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+h4{
+    font-size: 1.85rem;
+    color: rgb(104, 242, 0);
+    text-align: center;
+    margin-top: 17px;
+    margin-bottom: 35px;
+    font-family: 'Lato', sans-serif;
+}

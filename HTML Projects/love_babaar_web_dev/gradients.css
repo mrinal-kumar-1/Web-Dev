@@ -1,0 +1,16 @@
+.gr{
+
+    height: 300px;
+    width: 500px;
+    background-image: linear-gradient(to bottom,orange, rgba(255, 255, 255, 0.888) , green);
+
+
+}
+
+.new{
+    height: 100px;
+    width: 100px;
+color: aliceblue;
+text-align: center;
+    background-image: linear-gradient(rgb(227, 165, 165), rgb(112, 205, 244), rgba(176, 236, 176, 0.171));
+}

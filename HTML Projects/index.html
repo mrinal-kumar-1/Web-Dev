@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quattrocento+Sans&display=swap" rel="stylesheet">
+
+
+    <title>Fitness Project</title>
+    <style>
+        *{
+           margin: 0px;
+           padding: 0px;
+           
+        }
+        body{
+            background-color: rgb(255, 255, 255);
+            font-family: 'Fira Sans Condensed', sans-serif;
+            background-image: url('/HTML\ Projects/background5.jpg');
+            background-repeat: no-repeat;
+            
+        }
+        .left{
+            /* border: 5px solid black; */
+            position: absolute;
+            display: inline;
+            left: 15px;
+            top: 15px;
+            color: rgb(0, 0, 0);
+            
+            
+        }
+        .mid{
+            /* border: 5px solid black; */
+            width: 787px;
+            margin: 20px auto;
+            
+            
+        }
+        .mid ul li{
+            display: inline-block;
+            padding: 10px;
+            font-family: 'Montserrat', sans-serif;
+            
+        }
+        /* .right{
+            color: rgb(0, 0, 0);
+            border: 2px solid rgb(1, 0, 0);
+            border-radius: 3px;
+            background-color: black;
+            position: absolute;
+            display: inline-block;
+            right: 15px;
+            top: 15px;
+            cursor: pointer;
+        } */
+        .left img {
+            width: 75px;
+            
+        }
+        .mid ul li a{
+            font-family: 'Montserrat', sans-serif;
+            text-decoration: none;
+            background-color: rgb(0 0 0);
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    padding: 7px;
+    font-size: 15px;
+    margin: 8px;
+        
+        }
+
+        .mid ul li a:hover{
+            color: rgb(27, 204, 216);
+        }
+        .heading{
+            display: block;
+    color: rgb(255, 255, 255);
+    margin: auto;
+    width: 1217px;
+    height: 520px;
+    line-height: 165px;
+    font-size: 400%;
+    text-align: left;
+    font-family: 'Hammersmith One', sans-serif;
+        }
+        h1{
+            margin-top: 65px;
+        }
+        .subhead{
+            color: #ffffff91;
+    font-size: 47px;
+    text-align: left;
+    position: absolute;
+    left: 30px;
+    line-height: 341px;
+    font-family: 'Quattrocento Sans', sans-serif;
+        }
+    #announcement_img{
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        margin-top: 43px;
+        right: 90px;
+    }
+    h3{
+        color: rgb(0, 0, 0);
+        font-size: 80px;
+        text-align: center;
+        margin-top: 191px;
+    }
+    #para1{
+        padding-left: 10px;
+        font-size: 25px;
+        position: absolute;
+        text-align: justify;
+        right: 369px;
+        font-size: 30px;
+        color: rgb(0, 0, 0);
+        margin-top: 40px;
+        line-height: 39PX;
+        border-left: 10px;
+        border-right: 0ch;
+        border-top: 0ch;
+        border-bottom: 0ch;
+        border-style: solid;
+        border-color: rgb(219, 238, 250);
+        border-radius: 13px;
+    }
+    #story{
+        position: absolute;
+        display: inline;
+        margin-top: 266px;
+        left: 95px;
+    }
+    #story_para{
+        position: absolute;
+        display: inline;
+        margin-top: 399px;
+        left: 95px;
+        width: 535px;
+        line-height: 25px;
+        text-align: justify;
+    }
+    #story_img {
+    position: absolute;
+    right: -36px;
+    height: 607px;
+    width: auto;
+    margin-top: 194px;
+}
+.form form input{
+    display: block;
+    margin: 10px auto;
+    position: relative;
+    text-align: center;
+    width: 300px;
+    height: 25px;
+    border-radius: 6px;
+    
+}
+.form {
+    display: inline-block;
+    width: 500px;
+    position: absolute;
+    margin-top: 924px;
+    border: 3px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    padding: 45px;
+    left: 349px;
+}
+#btn{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    display: block;
+    margin: auto;
+    padding: 5px 10px;
+    background-color: rgba(0, 0, 0, 0.801);
+    border: 2px;
+    border-style: solid;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    width: 90px;
+    border-radius: 5px;
+}
+#btn:hover{
+    background-color: white;
+    color: black;
+}
+#form_head{
+    position: absolute;
+    margin-top: 758px;
+    left: 95px;
+}
+#weight_img{
+    position: absolute;
+    display: inline;
+    width: 417px;
+    height: auto;
+    top: 1853px;
+    left: -54px;
+}
+#bench_img{
+    position: absolute;
+    display: inline;
+    width: 300px;
+    height: auto;
+    top: 2000px;
+    right: 5px;
+}
+#about{
+    position: absolute;
+    display: inline;
+    margin-top: 1481px;
+    left: 430px;
+    text-align: left;
+}
+
+#about_us p{
+    margin-top: 1166px;
+    padding-top: 35%;
+    position: absolute;
+    display: inline;
+    right: 100px;
+    width: 735px;
+    line-height: 25px;
+    text-align: justify;
+}
+#skipping_img{
+    position: absolute;
+    left: -60px;
+    height: 504px;
+    width: auto;
+    margin-top: 1537px;
+}
+    </style>
+</head>
+<body>
+    <div class="left"><img src="/HTML Projects/logonew.png" alt="logo" id="logo">
+        </div>
+
+    <div class="mid"><ul>
+    <li><a href="#">H0ME</a></li>
+    <li><a href="#">REACH US</a></li>
+    <li><a href="#">OUR BRANCHES</a></li>
+    <li><a href="#">ACHIEVEMENTS</a></li>
+    <li><a href="#">ABOUT US</a></li></ul></div>
+
+    <!-- <div class="right"><button>Call Us</button></div> -->
+    <!-- <hr> -->
+    <div class="heading">
+    <h1 >BE STRONG
+        <br>
+TRAIN HARD
+<br>
+</h1>
+<!-- </div> -->
+<!-- <div > -->
+    <h5 class="subhead">With your full potential put all
+         the efforts to feed your greed</h5>
+</div>
+    <div class="announcement">
+        <img src="/HTML Projects/2.svg" alt="announcement" id="announcement_img">
+        <h3>IMPORTANT ANNOUNCEMENT !</h3>
+        <div id="para1">
+        <p>The offer will last till 31<sup>st</sup> March 23.<p> Kindly buy the membership soon to avail exciting benefits</p></p>
+        </div>
+    </div>
+<div>
+    <h3 id="story">OUR STORY</h3>
+    <p id="story_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit magnam natus laborum modi error velit saepe corporis qui corrupti quae, debitis, quaerat impedit id iure et nemo deleniti consequatur? Modi laudantium sed optio commodi iure, culpa provident unde error quo dolorem atque sapiente minima nam facere! Reiciendis ipsam sit corrupti? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente optio rem inventore non tenetur, vel corrupti hic. Magnam alias molestias delectus ipsa soluta commodi accusamus veniam officia laudantium in voluptatum consectetur rerum, expedita harum quisquam quibusdam a at amet animi ad assumenda dicta. Cupiditate ullam repellat ipsa veritatis architecto minus!</p>
+    <img src="/HTML Projects/3.svg" alt="GYM-STORY" id="story_img">
+</div>
+<img src="/HTML Projects/7.svg" alt="img" id="weight_img">
+<img src="/HTML Projects/6.svg" alt="img" id="bench_img">
+<h3 id="form_head">FILL THE FORM NOW TO JOIN US</h3>
+<div class="form">
+    <form action="">
+        <input type="text"  placeholder="Enter Name">
+        <input type="text" placeholder="Enter Age">
+        <input type="text" placeholder="Enter Gender">
+        <input type="text" placeholder="Enter Weight">
+        <input type="text" placeholder="Enter Height">
+        <input type="number" placeholder="Contact No.">
+        <input type="email" placeholder="E-mail">
+        <br>
+        <button id="btn">Submit</button>
+    </form>
+</div>
+<h3 id="about">ABOUT US</h3>
+<div id="about_us">
+    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus dignissimos incidunt sed rerum consequuntur aliquid ipsum pariatur sint doloremque explicabo architecto amet sequi autem, tempore et nulla commodi nemo placeat. Commodi saepe qui modi ratione dicta repudiandae placeat esse nulla ducimus culpa, doloremque inventore harum assumenda libero, adipisci facilis. Autem aut quia dolores quam itaque doloribus fuga debitis dolorem facere, excepturi eligendi reiciendis error eius pariatur quisquam est cum beatae culpa ex quod! Unde facere assumenda ipsa vitae labore porro laborum saepe dolore iusto, neque fugit est quas voluptas recusandae quod voluptatibus ipsum? Minima sapiente voluptatum consequatur nihil et perspiciatis provident eaque at libero nesciunt, asperiores, ullam cum, aliquam exercitationem ratione animi labore culpa! Consequatur esse voluptatum, vel molestias aliquam maiores similique adipisci commodi nihil deleniti qui inventore nemo voluptas nisi molestiae dolores laudantium magnam ipsum. Quas facere odio ducimus dolores officia neque ratione in porro eveniet suscipit, corporis quos ullam beatae? Ratione odio veniam unde, accusamus facere ipsa in hic, dolores possimus asperiores deleniti sequi doloribus eius doloremque. Laborum mollitia vero cum eius at molestiae maxime impedit temporibus, repellat dicta doloribus quo nulla, aliquam quibusdam pariatur inventore animi esse voluptatem perferendis dolor error voluptate tempora dolorum. Aliquam, omnis eveniet.
+    </P>
+</div>
+<img src="/HTML Projects/8.svg" alt="img" id="skipping_img">
+</body>
+</html>

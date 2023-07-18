@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+background-color: aquamarine;
+height: 29rem;
+border: 2px solid red;
+display: flex;
+flex-direction: row;
+/* align-content: space-around; */
+justify-content: flex-end;
+align-items: flex-end;
+/* justify-items: flex-end; */
+}
+.box{
+    border: 3px solid black;
+    background-color: rgba(255, 200, 48, 0.534);
+    width: 120px;
+    height: 5rem;
+    align-content: flex-start;
+    
+}
+ 
+
